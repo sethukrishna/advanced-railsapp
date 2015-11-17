@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  price: 1.5
+  expires: 2015-11-17 04:10:54
+  product_id: 
+
+two:
+  name: MyText
+  price: 1.5
+  expires: 2015-11-17 04:10:54
+  product_id: 

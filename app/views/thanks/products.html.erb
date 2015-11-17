@@ -1,0 +1,7 @@
+<h1>List Of Products</h1>
+<%= form_tag "/thanks/deals", method: :get do %>
+  <%= collection_select(:product, :id, @products.all, :id, :p_name) %>
+  <%= submit_tag "Select Product and Proceed" %>
+<% end %>
+<br/>
+<%= link_to 'Back to Stores', thanks_stores_path %>
