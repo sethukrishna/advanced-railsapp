@@ -1,28 +1,67 @@
-== README
+Tutorial by Gh0sT:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://docs.google.com/document/d/1D0D-tko0uMwDaSq5PG9BJ-KaPK4zXLfrQAYIr_2AoCs/edit#
 
-Things you may want to cover:
+Project: 
+You will develop a Ruby on Rails application that has three related tables 
 
-* Ruby version
+The tables must have a 1-to-many, between the first and second tables.  
 
-* System dependencies
+It should have a many-to-1 relationship  between second and third tables. Use appropriate validations (presence, range)  for the columns. (not more than 3 columns per table)
 
-* Configuration
+Between the three tables, you must have text, string, number, decimal, and date data columns. 
 
-* Database creation
+Create seeds data for all three tables.
 
-* Database initialization
+At least 5 records for the first and 3rd tables and 15 records for the second table.
 
-* How to run the test suite
+You must list values from the second table for any selected value of first table or third table. 
 
-* Services (job queues, cache servers, search engines, etc.)
+A page that shows the names, and contact info of the team members (home page)
 
-* Deployment instructions
+You should display links to go any of the two/three pages
 
-* ...
+For a bonus point, you will deploy it on the web  (Heroku)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Choose one of these scenarios as your domain
+
+Students --- Memberships --- Clubs
+Races --- Running --- Horses
+Movies --- Cast -- Actors  
+Stores -- Thanksgiving Sale items -- Products 
+Programmers --- Assigned --- Projects 
+Authors -- Writing -- Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
